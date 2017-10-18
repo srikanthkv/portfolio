@@ -50,7 +50,7 @@ p {
     color: #1abc9c !important;
 }
 
-#profileImage {
+#profileimage {
     display: inline;
 }
 
@@ -60,7 +60,9 @@ p {
 }
 
 .hero {
-    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    overflow: hidden;
     position: relative;
     background-image: url("../images/msp_0702_6192.jpg");
     background-size: cover;
